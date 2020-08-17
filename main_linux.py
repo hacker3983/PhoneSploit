@@ -201,7 +201,7 @@ def main():
             print (("     "+connect))
             print (("    [{0}+{1}]Enter a package name.").format(Fore.RED, Fore.WHITE))
             package_name = raw_input("    "+arrow + "phonesploit"+Fore.RED + "(app_delete) "+Fore.WHITE + "> ")
-            os.system("adb -s "+device_name+" unistall "+package_name)
+            os.system("adb -s "+device_name+" uninstall "+package_name)
             option = raw_input(Fore.WHITE + "phonesploit"+Fore.RED + "(main_menu) "+Fore.WHITE + "> ")
 
         elif option == '12':
